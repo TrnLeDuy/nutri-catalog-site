@@ -1,0 +1,127 @@
+// owl-carousel-style-custom
+.owl-carousel {
+  .owl-item {
+    img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+  }
+}
+
+// line-filter
+.line-filter {
+  &.bg-white {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+
+.margin-topbot-5px {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+// border-radius-custom
+.full-radius {
+  border-radius: 10px !important;
+}
+.topleft-radius {
+  border-top-left-radius: 10px !important;
+}
+.topright-radius {
+  border-top-right-radius: 10px !important;
+}
+.bottomleft-radius {
+  border-bottom-left-radius: 10px !important;
+}
+.bottomright-radius {
+  border-bottom-right-radius: 10px !important;
+}
+.left-radius {
+  border-top-left-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+.right-radius {
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+.top-radius {
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+.bottom-radius {
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+.header-nav-request {
+  position: relative;
+
+  input {
+    padding: 10px 30px 10px 10px; // Add space to the right for the icon
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  i {
+    position: absolute;
+    right: 10px; // Position the icon on the right side inside the input
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #aaa;
+  }
+}
+
+.pagination {
+  display: inline-block;
+  a {
+    color: #000000;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    &.active {
+      background-color: #00c24f;
+      color: #ffffff;
+      border-radius: 10px;
+    }
+  }
+}
+
+.custom_product_slider {
+  #featured {
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid #00c24f;
+    border-radius: 10px;
+  }
+  .thumbnail {
+    object-fit: cover;
+    max-width: 180px;
+    max-height: 180px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 5px;
+    border: 2px solid #00c24f;
+    border-radius: 10px;
+    &:hover {
+      opacity: 1;
+    }
+    &.active {
+      opacity: 1;
+    }
+  }
+}
+
+.owl-next, .owl-prev {
+  border-radius: 10px;
+}
+
+@media (max-width: 640px) {
+  .logo-header-inner {
+    text-align: center;
+  }
+}
